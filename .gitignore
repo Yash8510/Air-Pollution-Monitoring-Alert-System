@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sensor Logs and Data Files
+server/sensor_logs/*.csv
+server/sensor_logs/*.jsonl
+sensor_logs/*.csv
+sensor_logs/*.jsonl
+*.log
+
+# Trained ML Models
+server/models/*.pkl
+server/models/*.joblib
+server/models/*.h5
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Temporary files
+*.tmp
+*.bak
+
+# Arduino build files
+esp8266_sensor_sender/*.bin
+esp8266_sensor_sender/*.elf
+esp8266_sensor_sender/build/
+
+# Keep directory structure but ignore contents
+server/sensor_logs/*
+!server/sensor_logs/.gitkeep
+server/models/*
+!server/models/.gitkeep
